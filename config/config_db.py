@@ -16,3 +16,5 @@ def connection_db():
         return connection
     except pymysql.Eroor as e:
         print(f'MARIADB 연결 실패: {e}')
+
+
