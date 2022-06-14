@@ -147,6 +147,6 @@ def book_update_yn(book_isbn, use_yn):
         curs.execute(sql)
     finally:
         conn.closed()
-
+di
 
 
